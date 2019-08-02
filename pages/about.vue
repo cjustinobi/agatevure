@@ -20,7 +20,7 @@
             <div class="inner events-inner">
                 <h1 class="event-caption">Events</h1>
                 <p>
-                    I'm active in building tech community in Africa and beyond, by organizing events like ScratchEd, Python Meetups, Django Girls and Sheistechy Workshps.
+                    I'm active in building tech community in Africa, by organizing events like ScratchEd, Python Meetups, Django Girls and Sheistechy Workshps.
                     I contribute to tech events by speaking and volunteering at GDG events, WTM events, Pycon events and many others.
                 </p>
             </div>
