@@ -2,7 +2,7 @@
     <div>
         <h1>blogs</h1>
         <section>
-            <PostCard v-for="(blog, index) in blogList" :key="index" :articleinfo="blog"/>
+            <PostCard v-for="(blog, index) in blogList" :key="index" :articleInfo="blog"/>
         </section>
     </div>
 </template>

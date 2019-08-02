@@ -1,5 +1,6 @@
 <template>
     <article class="article-card" >
+        <h3>post card</h3>
         <nuxt-link :to="`/blog/${articleInfo.link}`">
             <div class="card-inner">
                 <p class="type">
@@ -21,13 +22,6 @@
             index: {
                 type: Number,
                 default: 0
-            }
-        },
-        data() {
-            return {
-                size: 'two-thirds',
-                language: this.articleInfo.attributes.language,
-                icon: 'js'
             }
         },
 
