@@ -150,6 +150,7 @@
     }
     .left h1{
         font-size: 5em;
+        margin-bottom: 0;
     }
     .left p{
         font-size: 1.077em;
