@@ -17,9 +17,11 @@
         async asyncData({ app }) {
             async function awaitImport(blog) {
                 const wholeMD = await import(`~/contents/blog/${blog.slug}.md`)
-                return {
-                    attributes: wholeMD.attributes,
-                    link: blog.slug
+                if (wholeMD) {
+                    return {
+                        attributes: wholeMD.attributes,
+                        link: blog.slug
+                    }
                 }
             }
 
