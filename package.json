@@ -1,18 +1,20 @@
 {
-  "name": "cjustinobi",
+  "name": "agatevure",
   "version": "1.0.0",
-  "description": "My doozie Nuxt.js project",
+  "description": "Gconnect portfolio",
   "author": "cjustinobi",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "node contents/index.js && nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^2.6.0",
+    "front-matter-markdown": "^0.4.3",
+    "frontmatter-markdown-loader": "^1.8.0",
     "lodash": "^4.17.11",
     "nuxt": "^2.0.0"
   },
