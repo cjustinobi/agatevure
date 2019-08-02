@@ -7,9 +7,8 @@
             <div class="overlay"></div>
             <div class="inner">
                 <h1 class="caption">Skills</h1>
+                <h2>Android Developer</h2>
                 <h2>UI/UX Designer</h2>
-                <h2>Mobile Developer</h2>
-                <h2>Digital Marketer</h2>
                 <h2>Community Builder</h2>
             </div>
         </div>
@@ -21,8 +20,8 @@
             <div class="inner events-inner">
                 <h1 class="event-caption">Events</h1>
                 <p>
-                    I'm active in building tech community in Africa using WTM, Scratch
-                    I'm active in building tech community in Africa using WTM, Scratch
+                    I'm active in building tech community in Africa, by organizing events like ScratchEd, Python Meetups, Django Girls and Sheistechy Workshps.
+                    I contribute to tech events by speaking and volunteering at GDG events, WTM events, Pycon events and many others.
                 </p>
             </div>
         </div>
