@@ -10,14 +10,14 @@
                 Hi there. My name is Glory Agatevure. I am an Android Developer, UI/UX designer and Community Builder
             </p>
             <p>
-                I design and develop Android apps. You can find some of my work on the profile page.
-
                 I got plenty love for community building. I encourage the female folks to fall in love with programing
-                by organizing periodic <a href ="https://photos.google.com/album/AF1QipMZK53lLFiBe-FdELcjAnDux4itU46DB7ljZWol"> Django Girls Meetup</a> and Sheistechy Workshops. I have organized,facilitated,coached, speak and volunteered at several tech events
+                by organizing periodic <a class="kh" target ="_blank" href ="https://photos.google.com/album/AF1QipMZK53lLFiBe-FdELcjAnDux4itU46DB7ljZWol"> Django Girls Meetup</a> and Sheistechy Workshops. 
+                I have organized, facilitated, coached, speak and volunteered at several tech events.
+            </p>
+            <p>
                 I have raised potential vibrant teenagers to the concept of
-                programming using Scratch under the auspices of <a href ="https://www.meetup.com/Scratched-AkwaIbom">ScratchEd</a>.
-                I organize <a href = "https://photos.google.com/share/AF1QipOBgAMKScTPiIAd_wpfyUPr2l8PTioX8X0x0TP6noXy-npahwVuJIJm5VnQ5qlf1g?key=OEpiRW1JOGlvWnRGWkFSUW1uNmRFTlVwcXhSclJB">Python Meetup </a> . And I have help to grow the community in Eket, Akwa Ibom State.
-                
+                programming using Scratch under the auspices of <a class="kh" target ="_blank" href ="https://www.meetup.com/Scratched-AkwaIbom">ScratchEd</a>.
+                I also organize <a class="kh" target ="_blank" href = "https://photos.google.com/share/AF1QipOBgAMKScTPiIAd_wpfyUPr2l8PTioX8X0x0TP6noXy-npahwVuJIJm5VnQ5qlf1g?key=OEpiRW1JOGlvWnRGWkFSUW1uNmRFTlVwcXhSclJB">Python Meetup </a> .
             </p>
         </div>
         <div class="right"></div>
