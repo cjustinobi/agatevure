@@ -1,12 +1,12 @@
 <template>
-    <article class="article-card" >
-        <h3>post card</h3>
+    <article class="article-card">
         <nuxt-link :to="`/blog/${articleInfo.link}`">
             <div class="card-inner">
                 <p class="type">
                     {{ capitalize(articleInfo.attributes.type) }}
                 </p>
                 <h4>{{ articleInfo.attributes.title }}</h4>
+                <img :src="`${articleInfo.attributes.thumbnail}`" alt="">
             </div>
         </nuxt-link>
     </article>
@@ -33,3 +33,9 @@
         }
     }
 </script>
+
+<style scoped>
+    img{
+        max-width: 350px;
+    }
+</style>

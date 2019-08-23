@@ -50,7 +50,7 @@
             return {
                 title: 'About - Glory Agatevure',
                 meta: [
-                    { hid: 'description', name: 'description', content: 'I\'m a tech lover. I blog on https://medium.com/@agatevureglory' }
+                    { hid: 'description', name: 'description', content: 'I\'m a tech lover. I blog on https://agatevure.com/blog' }
                 ]
             }
         }
@@ -210,23 +210,10 @@
         background: rgba(255, 67, 120, 0.53);
     }
     @media(min-width: 768px) {
-        html, body{
-            overflow: hidden;
-        }
         .about-container{
             display: grid;
             grid-template: 1fr 1fr / repeat(3, 30% 40% 30%);
             color: #fafafa;
-        }
-        .go-home{
-            position: absolute;
-            left: 20px;
-            top: 20px;
-            cursor: pointer;
-            z-index: 100;
-        }
-        .go-home a{
-            color: #FF4081;
         }
     }
 

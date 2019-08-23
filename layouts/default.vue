@@ -1,10 +1,6 @@
 <template>
     <div class="app-main">
-        <div>
-            <!--<transition name="router-anim" enter-active-class="animated fadeInDown" leave-active-class="animated fadeOutDown">-->
-                <nuxt/>
-            <!--</transition>-->
-        </div>
+        <nuxt/>
         <div class="mobile-version">
             <MobileFooter/>
         </div>
@@ -23,15 +19,6 @@
 
 <style>
     @import '../assets/font-awesome/css/font-awesome.min.css';
-
-    /* Transitions using the page hook */
-    /*page-enter-active, .page-leave-active {
-        transition: all .30s ease-out;
-    }
-    .page-enter, .page-leave-active {
-        opacity: 0;
-        transform-origin: 50% 50%;
-    }*/
 
     .page-enter-active {
         animation: acrossIn .40s ease-out both;
@@ -103,6 +90,18 @@
         .app-main{
             display: grid;
             grid-auto-rows: 1fr auto;
+        }
+    }
+    @media(min-width: 768px) {
+        .go-home{
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            cursor: pointer;
+            z-index: 100;
+        }
+        .go-home a{
+            color: #FF4081;
         }
     }
 

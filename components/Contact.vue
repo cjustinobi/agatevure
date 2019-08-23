@@ -3,7 +3,7 @@
         <div class="go-home1">
             <nuxt-link to="/"><i class="fa fa-angle-left fa-3x"></i></nuxt-link>
         </div>
-        <!--<form>
+        <form>
             <h1 class="caption">Let's meet</h1>
 
             <span v-show="allFieldsRequired">All Fields are required</span>
@@ -29,7 +29,7 @@
                 </textarea>
 
             <button class="submit-btn empty-purpose" @click.prevent="emptyPurpose" v-show="details.purpose == ''">{{ purposeAlert }}</button>
-            <button v-show="details.purpose" class="submit-btn" @click.prevent="sendEmail">Shoot it</button>-->
+            <button v-show="details.purpose" class="submit-btn" @click.prevent="sendEmail">Shoot it</button>
         </form>
     </div>
 </template>

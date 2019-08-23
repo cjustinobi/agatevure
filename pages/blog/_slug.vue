@@ -10,6 +10,7 @@
                 Updated on {{ updated }} by
                 <a v-if="authorlink" :href="authorlink">{{ author }}</a>
             </p>
+            <div v-html="html"></div>
         </Container>
     </section>
 </template>
@@ -18,9 +19,11 @@
     import Container from '~/components/container'
 
     export default {
-        components: {
-            Container
-        },
+
+        layout: 'blog',
+
+        components: { Container },
+
         head() {
             return {
                 // title: `${this.title} | <Blog Name>`,
@@ -111,6 +114,7 @@
         async asyncData({ params }) {
             const post = await import(`~/contents/blog/${params.slug}.md`)
             const attr = post.attributes
+            console.log(JSON.stringify(post))
             const slug = params.slug
             const {
                 author,
@@ -144,7 +148,7 @@
                 thumbnail,
                 summary,
                 slug,
-                html: post.html
+                html: post.default.html
             }
         },
 

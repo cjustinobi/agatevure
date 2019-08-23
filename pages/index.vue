@@ -26,7 +26,7 @@
             <div v-if="show" class="sidenav">
                 <transition-group name="list-complete" tag="ul">
                     <li class="sidenav-link" v-for="route in routes" v-bind:key="route.name">
-                        <a href="#" @click.prevent="goTo(route)">{{ route.name }}</a>
+                        <a href="#" @click.prevent="$router.push(route.link)">{{ route.name }}</a>
                     </li>
                 </transition-group>
             </div>
@@ -74,19 +74,12 @@
                 routes: [
                     { name: 'About', link: '/about' },
                     { name: 'Portfolio', link: '/portfolio' },
-                    { name: 'Blog', link: 'https://medium.com/@agatevureglory' },
+                    { name: 'Blog', link: '/blog' },
                     { name: 'Contact', link: '/contact' },
                 ]
             }
         },
         methods: {
-            goTo(item) {
-                if(item.name === 'Blog') {
-                    return window.open(item.link, '_blank')
-                }
-                this.$router.push(item.link)
-            },
-
 
             dragButton(elmnt) {
 
