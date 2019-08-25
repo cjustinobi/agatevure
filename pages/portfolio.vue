@@ -334,5 +334,8 @@
             grid-template-columns: 1fr;
             width: 90%;
         }
+        .go-home{
+            margin-left: 20px;
+        }
     }
 </style>

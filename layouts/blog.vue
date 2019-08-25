@@ -1,6 +1,6 @@
 <template>
-  <div class="blog-container">
-    <div style="background: green;">
+  <div :class="[{'blog-container': toggleSidebar}, {'small-blog-container': !toggleSidebar}]">
+    <div>
       <BlogSidebar/>
     </div>
     <nuxt/>
@@ -9,33 +9,48 @@
 
 <script>
 
+  import WindowWidth from '~/mixins/windowWidth'
   import BlogSidebar from '~/components/BlogSidebar'
 
   export default {
 
-    components: { BlogSidebar }
+    mixins: [WindowWidth],
 
+    components: { BlogSidebar },
+
+    data() {
+      return {
+        blogContainer: true
+      }
+    },
+
+    computed: {
+      toggleSidebar() {
+        return this.$store.getters['shared/toggleSidebar']
+      }
+    }
   }
 
 
 </script>
 
 <style scoped>
-  .blog-sidebar-container{
-    /*position: fixed;*/
-    /*top: 0;*/
-    /* height: 100%;
-     background: #eeeeee;
-     display: grid;
-     grid-template-rows: 130px 30px 30px 30px 30px;
-     grid-gap: 30px;
-     justify-items: center;
-     padding: 60px 0;*/
-  }
+
   .blog-container{
-    /*position: relative;*/
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 20% 80%;
+    transition: 1s ease-in-out;
+  }
+  .small-blog-container{
+    display: grid;
+    grid-template-columns: 100%;
+    transition: 1s ease-in-out;
+  }
+
+  @media (max-width: 767px) {
+    .blog-container{
+      grid-template-columns: 100%;
+    }
   }
 </style>
 
