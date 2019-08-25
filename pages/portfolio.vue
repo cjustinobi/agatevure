@@ -15,7 +15,7 @@
                 </p>
                 <p class="stack">Tech: Java, Dagger, Kotlin</p>
             </div>
-            <img src="~/assets/img/project.jpg" alt="agatevure projects">
+            <img src="~/assets/img/project.JPG" alt="agatevure projects">
             <div class="content">
                 <h1>My Portfolio</h1>
                 <p>
@@ -24,7 +24,7 @@
                 </p>
                 <p class="stack">Tech: Java, Dagger, Kotlin</p>
             </div>
-            <img src="~/assets/img/project.jpg" alt="agatevure projects">
+            <img src="~/assets/img/project.JPG" alt="agatevure projects">
             <div class="content">
                 <h1>My Portfolio</h1>
                 <p>
@@ -33,7 +33,7 @@
                 </p>
                 <p class="stack">Tech: Java, Dagger, Kotlin</p>
             </div>
-            <img src="~/assets/img/project.jpg" alt="agatevure projects">
+            <img src="~/assets/img/project.JPG" alt="agatevure projects">
         </div>
     </div>
 </template>
