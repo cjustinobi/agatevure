@@ -1,7 +1,7 @@
 <template>
   <div :class="[{'blog-sidebar-container': toggleSidebar}, {'hide-sidebar': !toggleSidebar}]">
     <div class="menu" v-if="toggleSidebar">
-      <i class="fa fa-bars fa-2x" @click="$store.dispatch('shared/toggleSidebar', false)"></i>
+      <i class="fa fa-bars fa-2x" @click="$store.dispatch('shared/toggleSidebar')"></i>
     </div>
     <img src="~/assets/img/face.jpg" alt="agatevure image">
     <nuxt-link to="/">Home</nuxt-link>

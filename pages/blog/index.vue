@@ -49,23 +49,24 @@
 
 <style scoped>
   .blog{
-    background: greenyellow;
+    padding: 10px;
     display: grid;
     grid-gap: 24px;
     justify-items: center;
+    color: #505050;
   }
   h1{
     margin-top: 60px;
     margin-bottom: 0;
   }
-  .menu{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-  }
-  .fa{
-    cursor: pointer;
-  }
+  /*.menu{*/
+    /*position: absolute;*/
+    /*top: 20px;*/
+    /*left: 20px;*/
+  /*}*/
+  /*.fa{*/
+    /*cursor: pointer;*/
+  /*}*/
   @media (max-width: 767px) {
     h1{
       margin-top: 80px;

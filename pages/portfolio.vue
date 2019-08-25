@@ -4,7 +4,7 @@
             <nuxt-link to="/"><i class="fa fa-angle-left fa-3x"></i></nuxt-link>
         </div>
         <div id="particles-js"></div>
-        <h1 class="bounce-in-top">Check again soon</h1>
+        <h1 class="bounce-in-top">Awesome projects</h1>
         <p class="bounce-in-top">These are some large scale projects I have worked on with awesome teammates.</p>
         <div class="portfolio">
             <div class="content">
@@ -56,7 +56,7 @@
 
         mounted() {
 
-            particlesJS("particles-js", {
+            typeof particlesJS ? particlesJS("particles-js", {
                 "particles": {
                     "number": {
                         "value": 355,
@@ -165,7 +165,7 @@
                     }
                 },
                 "retina_detect": true
-            });
+            }) : '';
         }
 
     }

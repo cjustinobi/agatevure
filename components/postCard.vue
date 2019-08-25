@@ -1,41 +1,55 @@
 <template>
-    <article class="article-card">
-        <nuxt-link :to="`/blog/${articleInfo.link}`">
-            <div class="card-inner">
-                <p class="type">
-                    {{ capitalize(articleInfo.attributes.type) }}
-                </p>
-                <h4>{{ articleInfo.attributes.title }}</h4>
-                <img :src="`${articleInfo.attributes.thumbnail}`" alt="">
-            </div>
-        </nuxt-link>
-    </article>
+  <article class="article-card">
+    <small>{{ formatDate(articleInfo.attributes.update) }}</small>
+    <nuxt-link :to="`/blog/${articleInfo.link}`">
+      <div class="card-inner">
+        <h2>{{ articleInfo.attributes.title }}</h2>
+        <p>{{ articleInfo.attributes.description }}</p>
+      </div>
+    </nuxt-link>
+  </article>
 </template>
 
 <script>
-    export default {
-        props: {
-            articleInfo: {
-                type: Object,
-                default: () => {}
-            },
-            index: {
-                type: Number,
-                default: 0
-            }
-        },
-
-        methods: {
-            capitalize(s) {
-                if (typeof s !== 'string') return ''
-                return s.charAt(0).toUpperCase() + s.slice(1)
-            }
-        }
+  import FormatDate from '~/mixins/formatDate'
+  export default {
+    mixins: [FormatDate],
+    props: {
+    articleInfo: {
+      type: Object,
+    default: () => {}
+    },
+    index: {
+      type: Number,
+    default: 0
     }
+  },
+
+  methods: {
+    capitalize(s) {
+      if (typeof s !== 'string') return ''
+      return s.charAt(0).toUpperCase() + s.slice(1)
+    }
+  }
+  }
 </script>
 
 <style scoped>
-    img{
-        max-width: 350px;
-    }
+  .article-card a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #505050;
+  }
+  h2{
+    margin: 18px 0;
+  }
+  p{
+    margin-bottom: 20px;
+  }
+  .article-card:not(:last-child){
+    border-bottom: 1px solid #ccc;
+  }
+  img{
+    max-width: 350px;
+  }
 </style>
