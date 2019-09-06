@@ -79,7 +79,7 @@ To run a successful build, you need to take note of the following points
 ![permission denied](/images/uploads/permissiondenied.png "permission denied")
 
 
-•Make sure the .circleci`is all small caps. Previously mine was carmel case and it was failing. If you put the`.circleci` directory in the wrong path you will get the no configuration found error. Be case sensitive and be sure to put it on the root of the project file structure.
+•Make sure the `.circleci` is all small caps. Previously mine was carmel case and it was failing. If you put the`.circleci` directory in the wrong path you will get the no configuration found error. Be case sensitive and be sure to put it on the root of the project file structure.
 
 ![](/images/uploads/screenshot-2019-09-05-at-1.34.57-am.png)
 
