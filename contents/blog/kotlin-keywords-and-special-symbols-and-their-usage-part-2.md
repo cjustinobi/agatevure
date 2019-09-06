@@ -31,7 +31,7 @@ when(monthOfYear){
 
 	4 ->  println(“May”)
 
-	else -> println(“Other days”)
+	else -> println(“Other month”)
 
 }
 
