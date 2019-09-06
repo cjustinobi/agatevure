@@ -3,10 +3,7 @@ title: Kotlin Keywords and Special Symbols and their usage (Part 2)
 description: >-
   In part 1 of the post I did a little introduction to Kotlin and what it has to
   offer. What makes it smarter than Java and some of the keywords that you might
-  find confusing if you are new to Kotlin. If you have not read that post I
-  would advise you click on here to check it out. Nevertheless, if you are not
-  completely new to Kotlin, you can continue reading. This post is not totally
-  dependent on the part one of the series.
+  find confusing if you are new to Kotlin. 
 date: 2019-09-06T08:28:54.897Z
 update: 2019-09-06T08:28:54.918Z
 ---
