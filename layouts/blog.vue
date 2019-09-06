@@ -60,6 +60,7 @@
   }
   pre code{
     display: block;
+    overflow-x: scroll;
     background: #4a4646;
     color: #fefefe;
     padding: 14px 12px;
