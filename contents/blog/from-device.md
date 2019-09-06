@@ -1,5 +1,5 @@
 ---
-title: From device
+title: From device that I would never use again in my life time
 date: 2019-08-15T17:25:20.887Z
 update: 2019-08-15T17:25:21.009Z
 author: Glory

@@ -58,6 +58,12 @@
   h1,h2,h3,h4,h5,h6{
     font-weight: 500;
   }
+  code{
+    background: #4a4646;
+    color: #fefefe;
+    padding: 10px;
+    border-radius: 5px;
+  }
   .menu{
     position: absolute;
     top: 20px;

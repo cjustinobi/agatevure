@@ -35,6 +35,7 @@
 </script>
 
 <style scoped>
+
   .article-card a{
     text-decoration: none;
     cursor: pointer;
@@ -51,5 +52,10 @@
   }
   img{
     max-width: 350px;
+  }
+  @media (min-width: 768px) {
+    .article-card{
+      width: 60%;
+    }
   }
 </style>

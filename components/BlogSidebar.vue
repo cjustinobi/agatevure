@@ -46,6 +46,7 @@
     justify-items: center;
     padding: 60px 0;
     transition: 1s ease-in-out;
+    z-index: 1000;
   }
   .blog-sidebar-container a{
     display: block;
