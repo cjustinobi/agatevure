@@ -59,9 +59,10 @@
     font-weight: 500;
   }
   code{
+    display: block;
     background: #4a4646;
     color: #fefefe;
-    padding: 10px;
+    padding: 14px 12px;
     border-radius: 5px;
   }
   .menu{
