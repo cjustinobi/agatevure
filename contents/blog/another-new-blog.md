@@ -1,8 +1,6 @@
 ---
 title: Kotlin Keywords and Special Symbols and their usage (Part 1)
-description: >-
-  I have been working with Java for a while now to build android applications. 
-  Just recently I decided to checkout Kotlin. 
+description: I have been working with Java for a while now to build android applications. Just recently I decided to checkout Kotlin. 
 date: 2019-08-04T23:00:00.000Z
 update: 2019-08-04T23:00:00.000Z
 title: another new blog that is probably old. what an Irony.
