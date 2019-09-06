@@ -58,12 +58,19 @@
   h1,h2,h3,h4,h5,h6{
     font-weight: 500;
   }
-  code{
+  pre code{
     display: block;
     background: #4a4646;
     color: #fefefe;
     padding: 14px 12px;
     border-radius: 5px;
+    font-size: 0.71em;
+  }
+  code{
+    color: #ff9686;
+    border-radius: 5px;
+    font-size: 0.91em;
+    font-weight: 700;
   }
   .menu{
     position: absolute;

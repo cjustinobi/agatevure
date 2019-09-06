@@ -145,7 +145,7 @@
 <style scoped>
   .post{
     /*display: grid;*/
-    justify-content: center;
+    /*justify-content: center;*/
     padding: 10px;
     color: #505050;
   }
@@ -155,6 +155,7 @@
   }
   .meta-section{
     margin-top: 60px;
+    overflow-x: hidden;
   }
   @media (min-width: 768px) {
     .menu{

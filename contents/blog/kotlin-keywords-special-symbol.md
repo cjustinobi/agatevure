@@ -6,7 +6,7 @@ update: 2019-08-04T23:00:00.000Z
 ---
 I have been working with Java for a while now to build android applications. 
 
-Just recently I decided to checkout Kotlin. Kotlin code looks very much like JavaScript especially with the var, val and const you would see in the code, except for the fact that Kotlin is still a typed language like Java. Though you still have the option of declaring a variable without indicating the type. 
+Just recently I decided to checkout Kotlin. Kotlin code looks very much like JavaScript especially with the `var`, `val` and `const` you would see in the code, except for the fact that Kotlin is still a typed language like Java. Though you still have the option of declaring a variable without indicating the type. 
 
 And so far, it has been really nice working with kotlin. It really helps simplify coding as compared to Java. It reduces the number of repetitions involve in Java.
 
@@ -24,11 +24,15 @@ Kotlin can be used to write all sort of applications and those applications can 
 
 **Java**
 
-`GloryClass glory = new GloryClass()`
+```
+GloryClass glory = new GloryClass()
+```
 
 Can be simplified in Kotlin as
 
-`Val glory = Glory()` 
+```
+Val glory = Glory()
+```
 
 •Kotlin has all the features and advantages of functional programming language. It support higher-order functions anonymous functions, lambdas, inline functions, closures, tail recursion, and generics
 
@@ -48,13 +52,17 @@ Object MyHouse{
 }
 ```
 
-`val house = MyHouse.buildHouse()`
+```
+val house = MyHouse.buildHouse()
+```
 
 There will be only one instance of this class.
 
 **const:** This is used  to declare  a constant variable. This is same as saying public static final in Java
 
-`const val MY_WEBSITE = "agatevure.com"`
+```
+const val MY_WEBSITE = "agatevure.com"
+```
 
 **Companion Object:** To declare a static method in a class in Kotlin you use companion object. A companion object is a singleton instance of the class it resides in. Members of the companion object can be called by using simply the class name as the qualifier:
 
@@ -67,7 +75,9 @@ Companion object MyExample{
 }
 ```
 
-`val instance = Example.myStatic()`
+```
+val instance = Example.myStatic()
+```
 
 The name of the companion object can be omitted, in which case the name Companion will be used:
 
@@ -77,43 +87,53 @@ class Example {
 }
 ```
 
-`val x = MyClass.Companion`
+```
+val x = MyClass.Companion
+```
 
 **Open:** The open keyword is used to make a class extendable by another class. It allows subclassing a class or overriding a method.
 
-`class Glory{}`
+```
+class Glory{}
+```
 
-`class Agatevure{}`
+```
+class Agatevure{}
+```
 
 Agatevure class will not be extandable if open is not added to the class. Like so
 
-`Open Agatevure {}`
+```
+Open Agatevure {}
+```
 
 So, Glory can now extend Agatevure
 
-`Glory: Agatevure() {}` as opposed to 
+```
+Glory: Agatevure() {}
+```
+as opposed to 
 
-`Glory extends Agatevure` in Java
+```
+Glory extends 
+``` 
+in Java
 
 **data:** data classes are used to replace the getters and setters method in Java. It Instructs the compiler to generate canonical members for a class.
 
-`data class Exam (val subject: String, val score: Int)`
+```
+data class Exam (val subject: String, val score: Int)
+```
 
 Instead of this in Java:
 
 ```
 Public class Exam{
-
-Private String subject;
-
-Private Int score
-
-Public Exam(String subject, Int score){
-
-this.subject = subject
-
-this.score = score
-
+  Private String subject;
+  Private Int score
+  Public Exam(String subject, Int score){
+  this.subject = subject
+  this.score = score
 }
 
 Public String getSubject(){
@@ -121,15 +141,15 @@ Public String getSubject(){
 }
 
 Public void setSubject(String subject){
-    this.subject = subject
- }
+  this.subject = subject
+}
 
 Public Int getScore(){
-   return score
+  return score
 }
 
 Public void setScore(){
-    this.score = score
+  this.score = score
 }
 
 }
@@ -140,18 +160,22 @@ Public void setScore(){
 ```
 fun play(x: Any) {
   if (x is String) {
-     print(x.length) // x is automatically cast to String
-    }
+    print(x.length) // x is automatically cast to String
+  }
 }
 ```
 
 **val** is used to declare a read only non-mutable variable. Non-mutable means variables that cannot be changed. It’s same as declaring a variable in Java as final.
 
-`val name: String = "Glory"`
+```
+val name: String = "Glory"
+```
 
 **var**  is used to declare a mutable variable
 
-`var myVariable: Int = 5`
+```
+var myVariable: Int = 5
+```
 
 **by** delegates the implementation of an interface to another object
 
@@ -164,7 +188,9 @@ This code is saying: I am class X and I offer functions of interface Y which are
 
 **Any** all classes in Kotlin has a common superclass Any, that is a default super for a class with no supertypes declared.
 
-`Class Example{}` // Explicitely inherit from Any
+```
+Class Example{} // Explicitely inherit from Any
+```
 
 **Unit** in Java if we want that a function does return nothing we use void, Unit is the equivalent in Kotlin. But unlike void, Unit is a real class (Singleton) with only one instance.
 
@@ -188,7 +214,7 @@ fun doSomething : Unit(){
 
 ```
 class MyClass constructor () { 
-//This is a primary constructor. Declared at the header of the class// 
+  // This is a primary constructor. Declared at the header of the class // 
 }
 ```
 
@@ -201,13 +227,16 @@ class MyClass {
 
 To declare an empty primary constructor with non-default visibility:
 
-`class DontCreateMe private constructor () { /your code here/ }`
+```
+class DontCreateMe private constructor () { /your code here/ }
+```
 
 **init** begins an initializer block
 
 **downTo** to iterate numbers in reverse order
 
-`for (i in 4 downTo 1) print(i)` 
-// This print 4321
+```
+for (i in 4 downTo 1) print(i) // 4321
+``` 
 
 The post is getting long so we will end it here and click here to read the rest of the post. If you have any question, you can reach out to me on twitter.
