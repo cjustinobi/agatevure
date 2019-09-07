@@ -1,6 +1,7 @@
 <template>
     <div class="mobile-footer">
         <span class="about"><nuxt-link :to="homeAbout"><i :class="homeAboutIcon"></i></nuxt-link></span>
+        <span class="blog"><nuxt-link to="/blog"><i class="fa fa-book"></i></nuxt-link></span>
         <span class="portfolio"><nuxt-link to="/portfolio"><i class="fa fa-code"></i></nuxt-link></span>
         <span class="contactt"><nuxt-link to="/contact"><i class="fa fa-address-card"></i></nuxt-link></span>
     </div>
@@ -30,12 +31,15 @@
 </script>
 
 <style scoped>
+    a{
+        outline: none;
+    }
     .mobile-footer{
         display: -ms-grid;
         display: grid;
         -ms-grid-rows: 45px;
         -ms-grid-columns: (1fr)[3];
-        grid-template: 45px / repeat(3, 1fr);
+        grid-template: 45px / repeat(4, 1fr);
         text-align: center;
         position: fixed;
         bottom: 0;
@@ -50,6 +54,14 @@
         -ms-flex-align: center;
         align-items: center;
         background: #FF4081;
+    }
+    .blog{
+        display: -ms-grid;
+        display: grid;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background: #465bff;
     }
     .portfolio{
         display: -ms-grid;

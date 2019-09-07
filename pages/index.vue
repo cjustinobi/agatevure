@@ -7,7 +7,7 @@
                 Agatevure
             </h1>
             <p>
-                Hi there. My name is Glory Agatevure. I am an Android Developer, UI/UX designer and Community Builder
+                I am an Android Developer, UI/UX designer and Community Builder.
             </p>
             <p>
                 I got plenty love for community building. I encourage the female folks to fall in love with programing
@@ -46,7 +46,7 @@
                 Agatevure
             </h1>
             <p>
-                Hi there. My name is Glory Agatevure. I am an Android Developer, UI/UX designer and Community Builder
+                I am an Android Developer, UI/UX designer and Community Builder.
             </p>
         </div>
 
