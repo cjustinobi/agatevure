@@ -17,6 +17,18 @@ collections:
       - {label: "Publish Date", name: "date", widget: "date", required: true}
       - {label: "Updated Date", name: "update", widget: "date", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: true}
+  - name: "portfolio"
+      label: "Portfolio"
+      folder: "contents/portfolio"
+      create: true
+      slug: "{{slug}}"
+      sort: "date:desc"
+      fields:
+        - {label: "Title", name: "title", widget: "string", required: true}
+        - {label: "Description", name: "description", widget: "string", required: true}
+        - {label: "Image", name: "image", widget: "image", required: true}
+        - {label: "Project link", name: "link", widget: "string", required: false}
+        - {label: "Publish Date", name: "date", widget: "date", required: true}
 #  - name: "tags"
 #    label: "Tags"
 #    folder: "contents/tags
