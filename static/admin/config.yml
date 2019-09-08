@@ -27,10 +27,6 @@ collections:
         - {label: "Title", name: "title", widget: "string", required: true}
         - {label: "Description", name: "description", widget: "string", required: true}
         - {label: "Image", name: "image", widget: "image", required: true}
-        - {label: "Project link", name: "link", widget: "string", required: false}
+        - {label: "Project link", name: "link", widget: "string", required: true}
         - {label: "Publish Date", name: "date", widget: "date", required: true}
-#  - name: "tags"
-#    label: "Tags"
-#    folder: "contents/tags
-#    widget: "list"
-#    default: ["android"]
+        - {label: "Tech used", name: "tech", widget: "list", required: true}

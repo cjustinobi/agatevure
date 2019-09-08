@@ -6,18 +6,16 @@
     <div id="particles-js"></div>
     <h1 class="bounce-in-top">Awesome projects</h1>
     <p class="bounce-in-top">These are some large scale projects I have worked on with awesome teammates.</p>
-    <div class="portfolio">
+    <div class="portfolio" v-for="(p, i) in portfolios" :key="i">
       <div class="content">
-        <h1>My Portfolio</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sed tempore vero? Asperiores assumenda
-          culpa delectus dolores est ipsam ipsum libero mollitia nisi odio pariatur, porro quam repellendus, reprehenderit similique.
-        </p>
+        <h1>{{ p.attributes.title }}</h1>
+        <p>{{ p.attributes.description }}</p>
         <p class="stack">Tech: Java, Dagger, Kotlin</p>
       </div>
-      <img src="~/assets/img/project.JPG" alt="agatevure projects">
+      <a :href="p.attributes.link" target="_blank" title="link to the project">
+        <img :src="p.attributes.image" alt="agatevure projects">
+      </a>
     </div>
-    {{portfolioList}}
   </div>
 </template>
 
@@ -52,7 +50,7 @@
       return await Promise.all(portfolios.map(portfolio => awaitImport(portfolio))
       ).then(res => {
         return {
-          portfolioList: res
+          portfolios: res
         }
       })
     },
@@ -175,6 +173,9 @@
 </script>
 
 <style scoped>
+  a{
+    cursor: pointer;
+  }
   canvas {
     display: block;
     vertical-align: bottom;
