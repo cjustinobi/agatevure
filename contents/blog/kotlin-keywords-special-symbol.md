@@ -239,4 +239,4 @@ class DontCreateMe private constructor () { /your code here/ }
 for (i in 4 downTo 1) print(i) // 4321
 ``` 
 
-The post is getting long so we will end it here and click here to read the rest of the post. If you have any question, you can reach out to me on twitter.
+The post is getting long so we will end it here and click [here to read the part 2 of the post](https://agatevure.com/blog/kotlin-keywords-and-special-symbols-and-their-usage-part-2). If you have any question, you can reach out to me on twitter.

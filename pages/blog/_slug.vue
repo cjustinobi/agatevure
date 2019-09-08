@@ -25,89 +25,90 @@
 
     head() {
       return {
-        // title: `${this.title} | <Blog Name>`,
-        /*meta: [
-            {
-                hid: 'article:published_time',
-                property: 'article:published_time',
-                content: this.date
-            },
-            {
-                hid: 'article:modified_time',
-                property: 'article:modified_time',
-                content: this.update
-            },
-            {
-                hid: 'og:updated_time',
-                property: 'og:updated_time',
-                content: this.update
-            },
-            {
-                hid: 'og:url',
-                property: 'og:url',
-                content: `https://<domain>/blog/${this.slug}`
-            },
-            {
-                hid: 'og:title',
-                property: 'og:title',
-                content: `${this.title} | Code Tribe`
-            },
-            {
-                hid: 'description',
-                name: 'description',
-                content: this.summary
-            },
-            {
-                hid: 'og:description',
-                property: 'og:description',
-                content: this.summary
-            },
-            {
-                hid: 'og:image',
-                property: 'og:image',
-                content: `https://<domain>${this.thumbnail}`
-            },
-            {
-                hid: 'og:image:alt',
-                property: 'og:image:alt',
-                content: this.title
-            },
-            {
-                hid: 'og:type',
-                property: 'og:type',
-                content: 'article'
-            },
-            {
-                hid: 'og:article:author',
-                property: 'og:article:author',
-                content: this.authorlink
-            },
-            {
-                hid: 'twitter:card',
-                name: 'twitter:card',
-                content: 'summary_large_image'
-            },
-            {
-                hid: 'twitter:title',
-                name: 'twitter:title',
-                content: this.title
-            },
-            {
-                hid: 'twitter:site',
-                name: 'twitter:site',
-                content: '@tribe_code'
-            },
-            {
-                hid: 'twitter:description',
-                name: 'twitter:description',
-                content: this.summary
-            },
-            {
-                hid: 'twitter:image',
-                name: 'twitter:image',
-                content: `https://code-tribe.com${this.thumbnail}`
-            }
-        ]*/
+        title: `${this.title} | agatevure.com`,
+        meta: [
+          { hid: 'description', name: 'description', content: this.description },
+            // {
+            //     hid: 'article:published_time',
+            //     property: 'article:published_time',
+            //     content: this.date
+            // },
+            // {
+            //     hid: 'article:modified_time',
+            //     property: 'article:modified_time',
+            //     content: this.update
+            // },
+            // {
+            //     hid: 'og:updated_time',
+            //     property: 'og:updated_time',
+            //     content: this.update
+            // },
+            // {
+            //     hid: 'og:url',
+            //     property: 'og:url',
+            //     content: `https://<domain>/blog/${this.slug}`
+            // },
+            // {
+            //     hid: 'og:title',
+            //     property: 'og:title',
+            //     content: `${this.title} | Code Tribe`
+            // },
+            // {
+            //     hid: 'description',
+            //     name: 'description',
+            //     content: this.summary
+            // },
+            // {
+            //     hid: 'og:description',
+            //     property: 'og:description',
+            //     content: this.summary
+            // },
+            // {
+            //     hid: 'og:image',
+            //     property: 'og:image',
+            //     content: `https://<domain>${this.thumbnail}`
+            // },
+            // {
+            //     hid: 'og:image:alt',
+            //     property: 'og:image:alt',
+            //     content: this.title
+            // },
+            // {
+            //     hid: 'og:type',
+            //     property: 'og:type',
+            //     content: 'article'
+            // },
+            // {
+            //     hid: 'og:article:author',
+            //     property: 'og:article:author',
+            //     content: this.authorlink
+            // },
+            // {
+            //     hid: 'twitter:card',
+            //     name: 'twitter:card',
+            //     content: 'summary_large_image'
+            // },
+            // {
+            //     hid: 'twitter:title',
+            //     name: 'twitter:title',
+            //     content: this.title
+            // },
+            // {
+            //     hid: 'twitter:site',
+            //     name: 'twitter:site',
+            //     content: '@tribe_code'
+            // },
+            // {
+            //     hid: 'twitter:description',
+            //     name: 'twitter:description',
+            //     content: this.summary
+            // },
+            // {
+            //     hid: 'twitter:image',
+            //     name: 'twitter:image',
+            //     content: `https://code-tribe.com${this.thumbnail}`
+            // }
+        ]
       }
     },
     async asyncData({ params }) {

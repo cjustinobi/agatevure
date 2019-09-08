@@ -15,6 +15,18 @@
   import blogs from '~/contents/blogs'
 
   export default {
+    head() {
+      return {
+        title: 'Agatevure\'s blog',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: `I pen down my journey as e dey hot. Never forget to give me a clap if you find it enlightening`
+          }
+        ]
+      }
+    },
 
     layout: 'blog',
 
