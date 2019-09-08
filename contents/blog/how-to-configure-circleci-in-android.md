@@ -46,10 +46,10 @@ Create a `.circleci` folder on the root of the project in android studio and add
 
 **Step 4**
 
-Populate the `config.yml` with the contents of the `sample.yml` as shown below
-<https://circleci.com/docs/2.0/language-android/>
-
-[Here is the code on my github repo](https://github.com/gconnect/CircleCiExample/blob/master/.circleci/config.yml)
+Populate the `config.yml` with the contents of the `sample.yml` as shown 
+[here] (https://circleci.com/docs/2.0/language-android/)
+You can also check the code on my
+[ github repo](https://github.com/gconnect/CircleCiExample/blob/master/.circleci/config.yml)
 
 ![circleci config file](/images/uploads/screenshot-2019-09-06-at-10.13.05-am.png "circleci config file")
 
@@ -87,6 +87,6 @@ Click on the succes message to get the detailed view of the build summary
 
 ![circleci build success](/images/uploads/screenshot-2019-09-05-at-2.18.02-am.png "circleci build success")
 
-You can checkout the project on github here <https://github.com/gconnect/CircleCiExample>
+You can checkout the project on my github [here](https://github.com/gconnect/CircleCiExample)
 
 If you have any question you can reach out to me on twitter and any of my social handles.Thanks for reading!
