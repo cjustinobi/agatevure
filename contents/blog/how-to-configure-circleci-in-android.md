@@ -67,7 +67,7 @@ If your configuration `.circleci` folder and your `config.yml`file is not in the
 To run a successful build, you need to take note of the following points
 •Make sure your working directory is set to your current project working directory in the config file. If your build fails you see something like this.
 
-![circleci build failure](/images/uploads/screenshot-2019-09-05-at-1.33.43-am.png "circleci build failure")
+![circleci build failure](/images/uploads/screenshot-2019-09-05-at-1.34.57-am.png "circleci build failure")
 
 •Be sure to change the docker image from the default from the sample config file to suit the android api level of your project. You can check your app.build or gradle file to be sure, use the compileSdkVersion of your project. If your android api is not same as the docker image api you will get this error or mac/linux it might be certificate not accepted
 
