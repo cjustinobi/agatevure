@@ -7,7 +7,7 @@
 
 <style scoped>
   a{
-    margin: 12px 0;
+    padding-bottom: 40px;
     color: #2b2e4d;
     text-decoration: none;
   }

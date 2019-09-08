@@ -144,7 +144,7 @@
 
 <style scoped>
   .post{
-    /*display: grid;*/
+    display: grid;
     /*justify-content: center;*/
     padding: 10px;
     color: #505050;

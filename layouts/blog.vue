@@ -4,11 +4,13 @@
       <BlogSidebar/>
     </div>
     <nuxt/>
+    <MobileFooter/>
   </div>
 </template>
 
 <script>
 
+  import MobileFooter from '~/components/MobileFooter'
   import WindowWidth from '~/mixins/windowWidth'
   import BlogSidebar from '~/components/BlogSidebar'
 
@@ -16,7 +18,7 @@
 
     mixins: [WindowWidth],
 
-    components: { BlogSidebar },
+    components: { BlogSidebar, MobileFooter },
 
     data() {
       return {
@@ -88,6 +90,7 @@
   }
   .small-blog-container{
     display: grid;
+    margin-bottom: 40px;
     grid-template-columns: 100%;
     transition: 1s ease-in-out;
   }

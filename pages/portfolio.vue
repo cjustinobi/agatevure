@@ -10,7 +10,7 @@
       <div class="content">
         <h1>{{ p.attributes.title }}</h1>
         <p>{{ p.attributes.description }}</p>
-        <p class="stack">Tech: Java, Dagger, Kotlin</p>
+        <p class="stack">Tech: <span v-for="(t, i) in p.attributes.tech" :key="i">{{ t }}</span></p>
       </div>
       <a :href="p.attributes.link" target="_blank" title="link to the project">
         <img :src="p.attributes.image" alt="agatevure projects">
@@ -208,6 +208,13 @@
   }
   .stack{
     font-weight: 700;
+  }
+  span{
+    margin: 0 4px;
+    padding: 3px 4px;
+    border-radius: 5px;
+    font-weight: 500;
+    background: #f4f4f4;
   }
   img{
     max-width: 350px;

@@ -6,4 +6,9 @@ description: >-
   ask what’s Continuous Integration? 
 date: 2019-09-06T08:56:03.075Z
 update: 2019-09-06T08:56:03.089Z
+tech:
+  - android
+  - web
+  - kotlin
+  - dagger
 ---
