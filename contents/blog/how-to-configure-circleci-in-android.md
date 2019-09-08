@@ -21,7 +21,7 @@ Alright let’s get to work. Here are the steps involve in configuring your andr
 
 **Step 1**
 
-Signup on CircleCI  <https://circleci.com/signup/>
+Signup on CircleCI  [here](https://circleci.com/signup)
 
 You have the option to signup with your github or bitbucket account depending on which platforms you have your projects.
 
@@ -49,17 +49,13 @@ Create a `.circleci` folder on the root of the project in android studio and add
 Populate the `config.yml` with the contents of the `sample.yml` as shown below
 <https://circleci.com/docs/2.0/language-android/>
 
-Here is the code on my github repo
-
-<https://github.com/gconnect/CircleCiExample/blob/master/.circleci/config.yml>
+[Here is the code on my github repo](https://github.com/gconnect/CircleCiExample/blob/master/.circleci/config.yml)
 
 ![circleci config file](/images/uploads/screenshot-2019-09-06-at-10.13.05-am.png "circleci config file")
 
 **Step 5**
 
 Update the `sample.yml` file to suit your project configuration. This section is very important because it kept me for days. I was building and it was failing without knowing that it’s something as small as not changing the docker image android-api version from 25 to the api level of my project. Please take note of that. I knew several of this article exist online but if you follow the tutorials without taking your time to read and understand the documentations, you might encounter some problems.
-
-
 
 **Step 6**
 
@@ -73,11 +69,9 @@ To run a successful build, you need to take note of the following points
 
 ![circleci build failure](/images/uploads/screenshot-2019-09-05-at-1.33.43-am.png "circleci build failure")
 
-
 •Be sure to change the docker image from the default from the sample config file to suit the android api level of your project. You can check your app.build or gradle file to be sure, use the compileSdkVersion of your project. If your android api is not same as the docker image api you will get this error or mac/linux it might be certificate not accepted
 
 ![permission denied](/images/uploads/permissiondenied.png "permission denied")
-
 
 •Make sure the `.circleci` is all small caps. Previously mine was carmel case and it was failing. If you put the`.circleci` directory in the wrong path you will get the no configuration found error. Be case sensitive and be sure to put it on the root of the project file structure.
 
