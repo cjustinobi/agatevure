@@ -156,7 +156,7 @@
   }
   .meta-section{
     margin-top: 60px;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
   }
   @media (min-width: 768px) {
     .menu{

@@ -4,7 +4,7 @@
       <BlogSidebar/>
     </div>
     <nuxt/>
-    <MobileFooter/>
+    <div class="mobile-footer"><MobileFooter/></div>
   </div>
 </template>
 
@@ -94,10 +94,15 @@
     grid-template-columns: 100%;
     transition: 1s ease-in-out;
   }
-
+  .mobile-footer{
+    display: none;
+  }
   @media (max-width: 767px) {
     .blog-container{
       grid-template-columns: 100%;
+    }
+    .mobile-footer{
+      display: block;
     }
   }
 </style>

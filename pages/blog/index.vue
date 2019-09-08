@@ -22,7 +22,8 @@
           {
             hid: 'description',
             name: 'description',
-            content: `I pen down my journey as e dey hot. Never forget to give me a clap if you find it enlightening`
+            content: `I pen down my journey as e dey hot. Here is all about;  Java, Kotlin, Flutter, Android development
+            and other related software development contents`
           }
         ]
       }
