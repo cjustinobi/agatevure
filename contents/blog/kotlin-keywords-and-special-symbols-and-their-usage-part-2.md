@@ -6,9 +6,11 @@ description: >-
 date: 2019-09-06T08:28:54.897Z
 update: 2019-09-06T08:28:54.918Z
 ---
-In part 1 of the post I did a little introduction to Kotlin and what it has to offer. What makes it smarter than Java and some of the keywords that you might find confusing if you are new to Kotlin. If you have not read that post I would advise you click on here to check it out. Nevertheless, if you are not completely new to Kotlin, you can continue reading. This post is not totally dependent on the part one of the series. 
+In [part 1] (https://agatevure.com/admin/#/collections/blog/entries/kotlin-keywords-special-symbol)  of this post, I did a little introduction to Kotlin and what it has to offer. What makes it smarter than Java and some of the keywords that you might find confusing if you are new to Kotlin. If you have not read that post I would advise you click on here to check it out. 
 
-**Some keywords in Kotlin**
+Nevertheless, if you are not completely new to Kotlin, you can continue reading. This post is not totally dependent on the part one of the series. 
+
+**Some keywords in Kotlin**
 
 when is the replacement of switch statement from other languages like C, C++, and Java. It is concise and more powerful than switch statements.
 
@@ -41,8 +43,8 @@ suspend fun backgroundTask(param:Int) : Int{
 // long running task
 }
 ```
-**invoke** when you specify an invoke operator on a class it can be called on any instances of the class without a method name. It seems especially useful for  classes that really only have one method to be used.
 
+**invoke** when you specify an invoke operator on a class it can be called on any instances of the class without a method name. It seems especially useful for  classes that really only have one method to be used.
 
 ```
 class Welcome(val message: String) {	
@@ -64,8 +66,6 @@ fun main(args: Array<String>) {
 ```
 
 **also**  passes an object as a parameter and returns the same object (not the result of the lambda!
-
-
 
 **data** class House(var color: String, var doors: Int)
 
@@ -139,7 +139,7 @@ val name : String by lazy {
 }
 ```
 
-```
+```
 fun main(){
    println(name)
    println(name)
@@ -162,23 +162,24 @@ class House private constructor(){
     }
 }
 ```
-**When to use lazy and lateinit**
+
+**When to use lazy and lateinit**
 
 **lazy** can only be used for val properties, whereas **lateinit** can only be applied to vars because it can’t be compiled to a final field, thus no immutability can be guaranteed.
 
-
-**Special Symbols in Kotlin**
+**Special Symbols in Kotlin**
 
 **:** this is used to extend a class in kotlin
 
 ```
 Class Motor: Car {}
 ```
+
 **::** It creates a member reference or a class reference
 
 ```
 val c = MyClass::class
-```
+```
 
 **..** creates a range
 
@@ -213,32 +214,35 @@ println(a?.length) // Unnecessary safe call of a not null variable . This prints
 
 **?:**  takes the right-hand value if the left-hand value is null
 
-
 **!!**  Assert that an expression is non-null and throws an exception if the value is null
 
 ```
 val l = b!!.length 
-```
+```
 
-**->**      Separates the parameters and body of a lambda expression
+**\->**      Separates the parameters and body of a lambda expression
 
-	Lambda expression syntax
+```
+Lambda expression syntax
+```
 
 ```
 val sum: (Int, Int) -> Int = { x: Int, y: Int -> x + y }
 ```
-	This can also be represented as
 
-        ```
-	{x, y -> x+y}
-        ```
+````
+        This can also be represented as
 
-    Separates the parameters and return type declaration in a  function type
+            ```
+        {x, y -> x+y}
+            ```
 
-	val a = { i: Int -> i + 1 } // The inferred type is (Int) -> Int
+        Separates the parameters and return type declaration in a  function type
+
+        val a = { i: Int -> i + 1 } // The inferred type is (Int) -> Int
+````
 
   Separates the condition and body and body of a when expression
-
 
 **;** used to separate expressions on the same line
 
@@ -250,11 +254,6 @@ fun glo (name : String)
 
 **$** References a variable or expression in a String
 
-
 **it** is used inside a lambda to refer to its parameter implicitly
 
-
 In conclusion, some of these keywords and symbols are broad on their own and might require a more detailed writeup on it. In case you still find any of the keywords and symbols confusing and would like a more detailed explanation. You can also reach out to me via my social handles. Thanks for taking the time to read this post. I hope you learnt something. As always don’t forget to like the post. And start coding in Kotlin..
-
-
-
