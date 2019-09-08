@@ -8,29 +8,29 @@
 
       <span v-show="allFieldsRequired">All Fields are required</span>
 
-      <input @input="allFieldsRequired = false" name="fullname" v-model="details.fullname" placeholder="John Doe" id="fullname">
+      <input @input="allFieldsRequired = false" name="fullname" v-model="fullname" placeholder="John Doe" id="fullname">
       <label class="sr-only" for="fullname">fullname</label>
 
-      <input type="email" @input="allFieldsRequired = false" name="email" v-model="details.email" placeholder="johndoe@example.com" id="email">
+      <input type="email" @input="allFieldsRequired = false" name="email" v-model="email" placeholder="johndoe@example.com" id="email">
       <label class="sr-only" for="email">email</label>
 
-      <button class="business" @click.prevent="addPurpose('For project')">
-        <input type="hidden" name="details.purpose">
+      <button type="button" class="business" @click.prevent="addPurpose('For project')">
+        <input type="hidden" :name="purpose">
         For Project <span v-if="businessIcon"><i class="fa fa-thumbs-up"></i></span>
       </button>
-      <button class="to-speak" @input="allFieldsRequired = false" @click.prevent="addPurpose('Speak at an Event')">
+      <button type="button" class="to-speak" @input="allFieldsRequired = false" @click.prevent="addPurpose('Speak at an Event')">
         Speak at an Event <span v-if="eventIcon"><i class="fa fa-thumbs-up"></i></span>
       </button>
 
       <textarea
-          v-model="details.message"
+          v-model="message"
           @input="allFieldsRequired = false"
           rows="300px" id="message"
           placeholder="Hey Gconnect, Just passing by ...">
                 </textarea>
 
-      <button class="submit-btn empty-purpose" @click.prevent="emptyPurpose" v-show="details.purpose == ''">{{ purposeAlert }}</button>
-      <button type="submit" v-show="details.purpose" class="submit-btn" >Shoot it</button>
+      <button class="submit-btn empty-purpose" @click.prevent="emptyPurpose" v-show="purpose == ''">{{ purposeAlert }}</button>
+      <button type="submit" v-show="fullname && email && purpose" class="submit-btn" >Shoot it</button>
     </form>
   </div>
 </template>
@@ -52,12 +52,10 @@
         contactCaption: false,
         businessIcon: false,
         eventIcon: false,
-        details: {
-          fullname: '',
-          email: '',
-          purpose: '',
-          message: ''
-        }
+        fullname: '',
+        email: '',
+        purpose: '',
+        message: ''
       }
     },
 
@@ -67,21 +65,6 @@
         this.allFieldsRequired === true ? false : ''
       }, 1000),
 
-      sendEmail() {
-        if(
-            this.details.fullname !== '' &&
-            this.details.email !== '' &&
-            this.details.purpose !== '' &&
-            this.details.message !== ''
-        ) {
-
-
-        } else {
-
-          return this.allFieldsRequired = true
-
-        }
-      },
 
       addPurpose(purpose) {
         if(purpose == 'For project') {
@@ -93,7 +76,7 @@
           this.businessIcon = false
         }
         this.purposeAlert = 'Shoot it'
-        this.details.purpose = purpose
+        this.purpose = purpose
       },
 
       emptyPurpose() {

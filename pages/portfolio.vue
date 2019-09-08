@@ -13,7 +13,7 @@
         <p class="stack">Tech: <span v-for="(t, i) in p.attributes.tech" :key="i">{{ t }}</span></p>
       </div>
       <a :href="p.attributes.link" target="_blank" title="link to the project">
-        <img :src="p.attributes.image" alt="agatevure projects">
+        <img :src="p.attributes.image" :title="p.attributes.title" alt="agatevure projects">
       </a>
     </div>
   </div>
