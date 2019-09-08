@@ -30,7 +30,7 @@
                 </textarea>
 
       <button class="submit-btn empty-purpose" @click.prevent="emptyPurpose" v-show="details.purpose == ''">{{ purposeAlert }}</button>
-      <button v-show="details.purpose" class="submit-btn" @click.prevent="sendEmail">Shoot it</button>
+      <button type="submit" v-show="details.purpose" class="submit-btn" >Shoot it</button>
     </form>
   </div>
 </template>

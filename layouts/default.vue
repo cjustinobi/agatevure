@@ -1,137 +1,143 @@
 <template>
-    <div class="app-main">
-        <nuxt/>
-        <div class="mobile-version">
-            <MobileFooter/>
-        </div>
+  <div class="app-main">
+    <nuxt/>
+    <div class="mobile-version">
+      <MobileFooter/>
     </div>
+  </div>
 </template>
 
 <script>
-    import MobileFooter from '../components/MobileFooter'
+  import MobileFooter from '../components/MobileFooter'
 
-    export default {
+  export default {
+    head() {
+      return {
+        meta: [
+          {hid: 'og:image', property: 'og:image', content: 'static/icon.png'}
+        ]
+      }
+    },
+    components: { MobileFooter }
 
-        components: { MobileFooter }
-
-    }
+  }
 </script>
 
 <style>
-    @import '../assets/font-awesome/css/font-awesome.min.css';
+  @import '../assets/font-awesome/css/font-awesome.min.css';
 
-    .page-enter-active {
-        animation: acrossIn .40s ease-out both;
+  .page-enter-active {
+    animation: acrossIn .40s ease-out both;
+  }
+  .page-leave-active {
+    animation: acrossOut .60s ease-in both;
+  }
+  @keyframes acrossIn {
+    0% {
+      transform: translate3d(-100%, 0, 0);
     }
-    .page-leave-active {
-        animation: acrossOut .60s ease-in both;
+    100% {
+      transform: translate3d(0, 0, 0);
     }
-    @keyframes acrossIn {
-        0% {
-            transform: translate3d(-100%, 0, 0);
-        }
-        100% {
-            transform: translate3d(0, 0, 0);
-        }
+  }
+  @keyframes acrossOut {
+    0% {
+      transform: translate3d(0, 0, 0);
     }
-    @keyframes acrossOut {
-        0% {
-            transform: translate3d(0, 0, 0);
-        }
-        100% {
-            transform: translate3d(100%, 0, 0);
-        }
+    100% {
+      transform: translate3d(100%, 0, 0);
     }
+  }
 
-    html, body{
-        height: 100%;
-        margin: 0;
-        font-family: 'Quicksand', 'Open Sans', sans-serif;
+  html, body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Quicksand', 'Open Sans', sans-serif;
+  }
+  * {
+    outline: none;
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0;
+  }
+  img{
+    height: auto;
+    width: 100%;
+  }
+  select > option, input, textarea{
+    padding-left: 15px;
+    height: 40px;
+    border: 1px #e8e8e8 solid;
+    border-radius: 4px;
+  }
+  button{
+    cursor: pointer;
+  }
+  @media(min-width: 768px) {
+    .mobile-version{
+      display: none;
     }
-    * {
-        outline: none;
+    .app-main{
+      display: grid;
+      grid-auto-rows: 1fr auto;
     }
-    .sr-only {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        -webkit-clip-path: inset(50%);
-        clip-path: inset(50%);
-        border: 0;
-    }
-    img{
-      height: auto;
-      width: 100%;
-    }
-    select > option, input, textarea{
-        padding-left: 15px;
-        height: 40px;
-        border: 1px #e8e8e8 solid;
-        border-radius: 4px;
-    }
-    button{
-        cursor: pointer;
-    }
-    @media(min-width: 768px) {
-        .mobile-version{
-            display: none;
-        }
-        .app-main{
-            display: grid;
-            grid-auto-rows: 1fr auto;
-        }
-    }
+  }
 
-    @media(max-width: 767px) {
-        .app-main{
-            display: grid;
-            grid-auto-rows: 1fr auto;
-        }
+  @media(max-width: 767px) {
+    .app-main{
+      display: grid;
+      grid-auto-rows: 1fr auto;
     }
-    @media(min-width: 768px) {
-        .go-home{
-            position: absolute;
-            left: 20px;
-            top: 20px;
-            cursor: pointer;
-            z-index: 100;
-        }
-        .go-home a{
-            color: #FF4081;
-        }
+  }
+  @media(min-width: 768px) {
+    .go-home{
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      cursor: pointer;
+      z-index: 100;
     }
+    .go-home a{
+      color: #FF4081;
+    }
+  }
 
-    .router-anim-enter-active {
-        animation: coming 1s;
-        animation-delay: .5s;
-        opacity: 0;
-    }
-    .router-anim-leave-active {
-        animation: going 1s;
-    }
+  .router-anim-enter-active {
+    animation: coming 1s;
+    animation-delay: .5s;
+    opacity: 0;
+  }
+  .router-anim-leave-active {
+    animation: going 1s;
+  }
 
-    @keyframes going {
-        from {
-            transform: translateX(0);
-        }
-        to {
-            transform: translateX(-50px);
-            opacity: 0;
-        }
+  @keyframes going {
+    from {
+      transform: translateX(0);
     }
-    @keyframes coming {
-        from {
-            transform: translateX(-50px);
-            opacity: 0;
-        }
-        to {
-            transform: translateX(0);
-            opacity: 1;
-        }
+    to {
+      transform: translateX(-50px);
+      opacity: 0;
     }
+  }
+  @keyframes coming {
+    from {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 
 </style>
