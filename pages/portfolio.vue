@@ -188,12 +188,13 @@
     position: absolute;
     width: 100%;
     min-height: 100vh;
+    z-index: -1;
   }
 
 
   .portfolio{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% auto;
     grid-gap: 48px;
     width: 80%;
     margin: 70px auto;
@@ -210,7 +211,8 @@
     font-weight: 700;
   }
   span{
-    margin: 0 4px;
+    display: inline-block;
+    margin: 2px 4px;
     padding: 3px 4px;
     border-radius: 5px;
     font-weight: 500;
@@ -218,6 +220,7 @@
   }
   img{
     max-width: 350px;
+    max-height: 300px;
   }
   .bounce-in-top {
     text-align: center;

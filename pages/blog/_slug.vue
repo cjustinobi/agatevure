@@ -34,7 +34,7 @@
           { hid: 'og:url', property: 'og:url', content: `https://agatevure.com/blog/${this.slug}` },
           { hid: 'og:title', property: 'og:title', content: `${this.title} | Agatevure Glory` },
           { hid: 'og:description', property: 'og:description', content: this.description },
-          { hid: 'og:image', property: 'og:image', content: `/static/icon.png` },
+          { hid: 'og:image', property: 'og:image', content: `/icon.png` },
           { hid: 'og:image:alt', property: 'og:image:alt', content: this.title },
           { hid: 'og:type', property: 'og:type', content: 'article' },
           { hid: 'og:article:author', property: 'og:article:author', content: 'Agatevure Glory' },
@@ -42,7 +42,7 @@
           { hid: 'twitter:title', name: 'twitter:title', content: this.title },
           { hid: 'twitter:site', name: 'twitter:site', content: '@agatevureglory' },
           { hid: 'twitter:description', name: 'twitter:description', content: this.description },
-          { hid: 'twitter:image', name: 'twitter:image', content: `/static/icon.png` }
+          { hid: 'twitter:image', name: 'twitter:image', content: `/icon.png` }
         ]
       }
     },
