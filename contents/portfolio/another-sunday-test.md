@@ -1,12 +1,14 @@
 ---
-title: another sunday test
-description: this is just getting beautiful
-image: /images/uploads/screenshot-2019-09-05-at-1.33.43-am.png
-link: kkkkkkk
+title: Laundry App
+description: >-
+  Laundry  App as I would like to call it, is an app that helps laundry owners
+  manage their laundry related services as well as manage their inventories. I
+  designed the mockup using Figma
+image: /images/uploads/picapp-apple-macbook-air.png
+link: Would be available soon
 date: 2019-09-08T11:18:19.826Z
 tech:
-  - android
-  - web
-  - kotlin
+  - Figma
+  - picapp.net
 ---
 
