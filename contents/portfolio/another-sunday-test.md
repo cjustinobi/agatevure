@@ -9,6 +9,5 @@ link: 'https://www.behance.net/gallery/74703175/Laundry-App'
 date: 2019-09-08T11:18:19.826Z
 tech:
   - Figma
-  - ''
 ---
 
