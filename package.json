@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/google-tag-manager": "^2.2.1",
     "@nuxtjs/pwa": "^2.6.0",
     "front-matter-markdown": "^0.4.3",
     "frontmatter-markdown-loader": "^1.8.0",
