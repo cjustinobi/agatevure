@@ -26,6 +26,7 @@ export default {
   ],
 
   plugins: [
+    { src: '~plugins/ga.js', ssr: false }
   ],
 
   devModules: [
@@ -35,7 +36,7 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     ['@nuxtjs/google-tag-manager', {
-      id: 'GTM-MTKH8ZH',
+      id: 'GTM-NZCR65R',
       pageTracking: true,
       scriptURL: '//agatevure.com',
       noscriptURL: '//agatevure.com'
