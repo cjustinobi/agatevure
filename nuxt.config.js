@@ -1,11 +1,12 @@
 import blogs from './contents/blogs.json'
-
+let routes = [].concat(blogs.map(blog => `/blog/${blog.slug}`))
 
 export default {
   mode: 'universal',
 
   generate: {
-    routes: [].concat(blogs.map(blog => `/blog/${blog.slug}`))
+    // routes: [].concat(blogs.map(blog => `/blog/${blog.slug}`))
+    routes: routes
   },
 
   head: {
@@ -36,12 +37,16 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     ['@nuxtjs/google-tag-manager', {
-      id: 'GTM-NZCR65R',
+      id: 'GTM-NZCR65R  ',
       pageTracking: true,
       scriptURL: '//agatevure.com',
       noscriptURL: '//agatevure.com'
       }
     ],
+    ['@nuxtjs/sitemap', {
+      path: '/sitemap.xml',
+      routes: routes
+    }]
   ],
 
   axios: {
