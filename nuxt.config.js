@@ -45,6 +45,7 @@ export default {
     ],
     ['@nuxtjs/sitemap', {
       path: '/sitemap.xml',
+      generate: false,
       routes: routes
     }]
   ],
