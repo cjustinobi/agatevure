@@ -12,8 +12,7 @@ update: 2019-09-06T08:28:54.918Z
 ---
 In part 1 of the post I did a little introduction to Kotlin and what it has to offer. What makes it smarter than Java and some of the keywords that you might find confusing if you are new to Kotlin. If you have not read that post I would advise you click on here to check it out. Nevertheless, if you are not completely new to Kotlin, you can continue reading. This post is not totally dependent on the part one of the series. 
 
-**Some keywords in Kotlin
-**
+**Some keywords in Kotlin**
 
 when is the replacement of switch statement from other languages like C, C++, and Java. It is concise and more powerful than switch statements.
 
@@ -168,14 +167,12 @@ class House private constructor(){
     }
 }
 ```
-**When to use lazy and lateinit
-**
+**When to use lazy and lateinit**
 
 `lazy` can only be used for val properties, whereas `lateinit` can only be applied to vars because it can’t be compiled to a final field, thus no immutability can be guaranteed.
 
 
-**Special Symbols in Kotlin
-**
+**Special Symbols in Kotlin**
 
 `:` this is used to extend a class in kotlin
 
