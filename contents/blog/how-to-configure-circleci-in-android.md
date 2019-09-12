@@ -21,7 +21,7 @@ Alright let’s get to work. Here are the steps involve in configuring your andr
 
 **Step 1**
 
-Signup on CircleCI  <https://circleci.com/signup/>
+Sign up on CircleCI  [here](https://circleci.com/signup/)
 
 You have the option to signup with your github or bitbucket account depending on which platforms you have your projects.
 
@@ -49,9 +49,7 @@ Create a `.circleci` folder on the root of the project in android studio and add
 Populate the `config.yml` with the contents of the `sample.yml` as shown below
 <https://circleci.com/docs/2.0/language-android/>
 
-Here is the code on my github repo
-
-<https://github.com/gconnect/CircleCiExample/blob/master/.circleci/config.yml>
+[Here is the code on my github repo] (https://github.com/gconnect/CircleCiExample/blob/master/.circleci/config.yml)
 
 ![circleci config file](/images/uploads/screenshot-2019-09-06-at-10.13.05-am.png "circleci config file")
 
@@ -95,4 +93,4 @@ Click on the succes message to get the detailed view of the build summary
 
 You can checkout the project on github here <https://github.com/gconnect/CircleCiExample>
 
-If you have any question you can reach out to me on twitter and any of my social handles.Thanks for reading!
+If you have any question you can reach out to me on [Twitter](https://twitter.com/agatevureglory). Thanks for reading!
