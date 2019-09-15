@@ -7,6 +7,7 @@
       <h1>{{ title }}</h1>
       <small>{{ formatDate(updated)}}</small>
       <div class="html" v-html="html"></div>
+      <div class="commentbox"></div>
     </Container>
   </section>
 </template>
@@ -43,6 +44,9 @@
           { hid: 'twitter:site', name: 'twitter:site', content: '@agatevureglory' },
           { hid: 'twitter:description', name: 'twitter:description', content: this.description },
           { hid: 'twitter:image', name: 'twitter:image', content: `https://agatevure.com/icon.png` }
+        ],
+        script: [
+          {src: 'https://unpkg.com/commentbox.io/dist/commentBox.min.js'}
         ]
       }
     },
@@ -73,6 +77,10 @@
       toggleSidebar() {
         return this.$store.getters['shared/toggleSidebar']
       }
+    },
+    
+    mounted(){
+      commentBox('5734393758875648-proj')
     }
 
   }
