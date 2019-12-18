@@ -22,8 +22,6 @@ It was confusing because it's not something I had done before. Still doing resea
 
 I tried creating two separate Base Url for the different API request, and added another single api module. But it didn't  work. I know it's not the best approach. Still searching for the best way to handle the issue.
 
-
-
 **Where did you search for help?**
 
 I seek for help from my mentors. They shared a link. I studied the link and some other medium post.
@@ -31,7 +29,6 @@ I seek for help from my mentors. They shared a link. I studied the link and some
 **What resources did you find?**
 
 I found some guide on dynamically changing Base Url on runtime and guide on koin scope
-
 
 **Were any of those resources out of date or confusing?**
 
@@ -48,3 +45,5 @@ I got a clearer explanation of the confusing concept and how to go about it.
 **What would you tell someone who is worried about asking for help?**
 
 I would tell someone who is worried about asking for help to face their challenge with boldness. No one is above struggles. At one point or the other we are faced with challenging situations in life and at work. That does not mean you are weak or incapable it only shows readiness to grow and make progress!
+
+Thanks for reading. You can drop your comment or reach out to me on [twitter](twitter.com/agatevureglory)
