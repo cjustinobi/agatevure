@@ -31,13 +31,109 @@ The initial application involves series of questions and essay questions that sh
 
 **The Contribution Period**
 
-The contribution period lasted for a month and 4 days. It started from October 1, 2019 to November 5, 2019. This is is the next stage after the initial application stage. Successful applicants who gets to the contribution period. Will be encouraged to start contributing from the date they were selected to increase their chances of been selected for the internship. At this stage applicants can actually contribute to more than one project. And before the end of the contribution period, applicants are also notified to submit their final application. During the contribution I made series of contributions and about 24 Pull Request (PR) and it was very competitive. We had series of other contributors/applicants contributing to the same project. At some point I was scared and contributed more to increase my chances of been selected. 
+The contribution period lasted for a month and 4 days. It started from October 1, 2019 to November 5, 2019. This is is the next stage after the initial application stage. Successful applicants who gets to the contribution period. Will be encouraged to start contributing from the date they were selected to increase their chances of been selected for the internship. At this stage applicants can actually contribute to more than one project. And before the end of the contribution period, applicants are also notified to submit their final application. During the contribution I made series of contributions and about 22 Pull Request (PR) and it was very competitive. We had series of other contributors/applicants contributing to the same project. At some point I was scared and contributed more to increase my chances of been selected. Here are some of the contributions I made during the contribution period;
+
+[• Added Onboarding page to the app](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/issues/23)
+
+[• Change the Detail Media Fragment Layout to Constraint Layout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/issues/76)
+
+
+
+[• Designed a Mock-up for the onboarding](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/issues/82)
+
+
+
+[• Created a WelcomeHostActivity for the on-boarding](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/issues/83)
+
+
+
+[• Use Constraintlayout in wiki education dashboard fragment](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/issues/97)
+
+
+
+[• Use Constraintlayout in Outreach Programs and events dashboard fragment](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/issues/98)
+
+
+
+[• Fix -Overlapping Views](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/226)
+
+
+
+[• Change Upload and Activity View positions](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/211)
+
+
+
+[• Change Fragment Recent Activity to ConstraintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/208)
+
+
+
+[• Removed Unnecaessary Constraints from Fragment Explore](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/201)
+
+
+
+[• Changed item_rv_student layout to ConstaintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/199)
+
+
+
+[• Changed item_rv_my_dashboard to ConstaintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/199)
+
+
+
+[• Changed item_rv_media_category to ConstraintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/197)
+
+
+
+[• Changed item_rv_files to ConstraintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/196)
+
+
+
+[• Changed item_rv_expore_courses_users to ConstraintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/195)
+
+
+
+[• Changed item-rv_explore courses to ConstraintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/194)
+
+
+
+[• Changed item_rv_course upload to ConstraintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/193)
+
+
+
+[• Changed item_rv_campaign_list to ConstraintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/192)
+
+
+
+[• Changed include_layout_explore_courses to ConstraintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/191)
+
+
+
+[• Changed item_include_files_media to ConstraintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/190)
+
+
+
+[• Changed fragment_image_viewer to ConstraintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/189)
+
+
+
+[ Changed fragment_profle_stat to ConstarintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/225)
+
+
+
+[• Local Database setup with Room Persistent Library](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/228)
+
+
+
+
 
 Before the end of the contribution period applicants are encouraged to create a proposal and timelines for the project they are interested in working on and submit it to the organisation as well as on the outreachy dashboard.
 
 **Internship Period**
 
 It's a three months paid remote internship. During which selected applicants will contribute to the project they were selected to make contributions for. And work with mentors to guide them through the internship period.
+
+The internship started off with the community bonding period. Where I familiarize myself and set up my community work tools. Like the Wikimedia common uploads for my photo, created a wiki page for my blogs. Made some changes to my proposal with the help of my mentor. I had a video chat with my mentor to discuss the plan for the internship and for my first task. 
+
+I was introduced to a 10-15 minutes daily checking with members of the team.
 
 **How did you find information?**
 
@@ -47,7 +143,7 @@ I found out about the program through a WhatsApp post that was shared in a Women
 
 During the application period when I was stuck I sent mail to the mentors attached to the project I was contributing to. We also communicated via slack.
 
-**How did you mentor help you during the application process?**
+**How did your mentor help you during the application process?**
 
 During the application period, I made it a point of duty to always relate to my mentor because I understood the power of feedback. Whenever am having a challenge with my contributions as well as putting up my proposal I always made sure I reach out to my mentor on slack. And he was very helpful.
 
