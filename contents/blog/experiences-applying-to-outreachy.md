@@ -4,98 +4,55 @@ description: >-
   Outreachy is a paid, remote internship program. Outreachy's goal is to support
   people from groups underrepresented in tech. Outreachy gives newcomers the
   opportunity to make their first open source contribution.
-date: 2019-12-18T23:26:51.284Z
+date: 2019-12-17T23:00:00.000Z
+update: 2019-12-17T23:30:01.612Z
 ---
-![]()
+Outreachy is open to everyone around the world especially for under-represented group in tech. It involves a series of application process.First the initial application which comprises of series of questions and essays. The contribution period and the internship period. I will explain each of them as we proceed.
 
-GraphQL is a query Language for your API
+**What Motivated you to apply to Outreachy?**
 
-It is an alternative for the REST APIs. It is not specific for a single platform and works for all type of clients including Android, iOS or web. It stands between your server and client and helps you to query your data in a more optimized way. 
+I have had the opportunity of using several open source projects and I felt is about time I make my own contributions to software that people all of the world can access. My first contribution to open source project was the Django Girls Tutorial documentation. When I made the contribution and my PR was merge I was really very excited! I realised I could do more. My greatest motivation is the fact that as one who falls under the under-represented group in tech we are usually faced with alot of challenges in tech. There is this notion that people still have that tech is for the male folks and a woman in tech will not perform well. And most of the time the few that managed to get involve don't usually last in the system. If they do remain in the tech company they are usually positioned in a non-coding role. I was motivated to apply to Outreachy to contribute to the Free and Open Source Software (FOSS) and change the story one code at a time!
 
-GraphQL helps to address some of the headaches developers face when developing a REST-API and when consuming REST-API
+**What were you excited about when thinking about applying?**
 
-**Apollo Client**
+I was excited about the fact that I will have the opportunity to work with Wikimedia a world-class foundation that has been known for its great works and several other projects to its name. I was also excited that my contributions through the outreachy program will help solve some of challenges users of the WikiEducation Dashboard App are currently facing. By making UI improvements, changing architecture and user testing of the app.
 
-To use GrahpQL on Android you need the Apollo-client. It’s the only client that allows you to consume graphQL data. It will take care of requesting and caching your data, as well as updating your UI.
+**What made you passionate about the project you applied to?**
 
-![](/images/uploads/1_-ifernutg6-6e_fb2u0tea.png)
+During the application period, I went through the list of the projects available on the outreachy site. I made a list of project of was interested in contributing to as time would permit. My selection of each of these project  was mostly based on my skillset. I intended to contribute in more than one project to increase my chances of been selected. When I came across the Wikimedia Android Project **Improvements and User Testing of Wiki Education Dashboard Android App** I was really excited as most of the projects on the outreachy website are web based and the Wiki Education Dashboard App happen to be the only Android project that pick my interest. Especially because I am more skilled in Android development. I dived into the details of the project. Checked the github repo and went straight to the issues section and checked the issues tagged `good first issue`. When I saw the issues, I realised there were some issues I could work on. I was excited I have found a project that match my skills that I can actually contribute to.
 
-**Features of GraphQL**
+**What was confusing about the Outreachy application process?**
 
-![](/images/uploads/screenshot-2019-11-16-at-8.31.29-am.png)
+The Outreachy application process was quite long. For someone that is not patient might just stop half way through the application process. But as the saying goes "Good things don't come easily". The process was long but its worth it. 
 
-* Client, driven, you only get what you want
-* Avoid doing multiple calls. Incase of rest we have to maintain multiple endpoints
-* Universally compatible. Use any build setup and any GRAPHQL API
-* Better network performance
-* Community driven
+**Initial Application**
 
-**URL Routes vs GraphQL Schema**
+The initial application involves series of questions and essay questions that should be filled carefully and truthfully.
 
-An API isn’t useful if it isn’t predictable.
+**The Contribution Period**
 
-![REST URL](/images/uploads/screenshot-2019-11-15-at-5.58.58-pm.png "Rest URL Route")
+The contribution period lasted for a month and 4 days. It started from October 1, 2019 to November 5, 2019. This is is the next stage after the initial application stage. Successful applicants who gets to the contribution period. Will be encouraged to start contributing from the date they were selected to increase their chances of been selected for the internship. At this stage applicants can actually contribute to more than one project. And before the end of the contribution period, applicants are also notified to submit their final application. During the contribution I made series of contributions and about 24 Pull Request (PR) and it was very competitive. We had series of other contributors/applicants contributing to the same project. At some point I was scared and contributed more to increase my chances of been selected. 
 
-In GraphQL, you don’t use URLs to identify what is available in the API. Instead, you use a GraphQL schema:
+Before the end of the contribution period applicants are encouraged to create a proposal and timelines for the project they are interested in working on and submit it to the organisation as well as on the outreachy dashboard.
 
-![GraphQL Schema](/images/uploads/screenshot-2019-11-15-at-5.59.17-pm.png "GraphQL Schema")
+**Internship Period**
 
-**Who is using GraphQL?**
+It's a three months paid remote internship. During which selected applicants will contribute to the project they were selected to make contributions for. And work with mentors to guide them through the internship period.
 
-![Companies using GraphQL](/images/uploads/screenshot-2019-11-16-at-9.05.51-am.png "Companies using GraphQL")
+**How did you find information?**
 
-**Graphcool is a service that gives you a graphql server**
+I found out about the program through a WhatsApp post that was shared in a WomenWill and Women Tech Makers group and I decided to check it out. From checking it out, I got interested in participating.
 
-![Graphcool](/images/uploads/screenshot-2019-11-16-at-8.45.02-am.png "Graphcool")
+**Who did you ask questions of when you were stuck?**
 
-The **Schema** is the contract between the server and the client
+During the application period when I was stuck I sent mail to the mentors attached to the project I was contributing to. We also communicated via slack.
 
-![schema](/images/uploads/screenshot-2019-11-16-at-8.43.04-am.png "schema")
+**How did you mentor help you during the application process?**
 
-**Required Steps**
+During the application period, I made it a point of duty to always relate to my mentor because I understood the power of feedback. Whenever am having a challenge with my contributions as well as putting up my proposal I always made sure I reach out to my mentor on slack. And he was very helpful.
 
-* Step 1
-npm install
-* Step 2
-npm install apollo-codegen
-* Step 3 Generate Schema
-apollo-codegen download-schema link-to-url-endpoint --output schema.json
+**What would you tell someone who is worried about applying to Outreachy?**
 
-Now make a file with `.graphql` queries and add following queries:
+Outreachy is for everyone irrespective of your skill level. Don't be discouraged by thinking open source contributions is just for people that are very good. Outreachy open source contribution is not just a code based contribution. It encompasses every aspect of tech. Outreachy internship projects may include programming, user experience, documentation, illustration, graphical design, or data science. Don't think too much about it just give it a shot.
 
-![GraphQL Query](/images/uploads/screenshot-2019-11-16-at-7.36.16-am.png "GraphQL Query")
-
-Make a directory with name “graphql”under the /main of your project in the same level of java directory and paste both the files. Now rebuild your project and when the build is successful you will see auto generated models in build/generated like shown in following screenshot:
-
-**AllPostQuery**
-![AllPostQuery generated file](/images/uploads/screenshot-2019-11-16-at-7.44.02-am.png "AllPostQuery generated file")
-
-**CreatePostMutation**
-
-![createPostMutation](/images/uploads/screenshot-2019-11-16-at-7.45.38-am.png "createPostMutation")
-
- **Setting up Apollo client**
-
-Apollo-android uses okhttp client for requesting the queries and getting response.
-
-![ApolloClient](/images/uploads/screenshot-2019-11-16-at-7.53.13-am.png "ApolloClient")
-
-**Querying from the client - CreatePost**
-
-![createPost](/images/uploads/screenshot-2019-11-16-at-8.08.30-am.png "createPost")
-
-**Querying from the client - getAllPost**
-
-![getAllPost](/images/uploads/screenshot-2019-11-16-at-8.01.09-am.png "getAllPost")
-
-**Setup UI**
-
-![setup UI](/images/uploads/screenshot-2019-11-16-at-8.12.15-am.png "setup UI")
-
-**Additional Resource**
-
-* <https://medium.com/codingthesmartway-com-blog/rest-vs-graphql-418eac2e3083>
-* <https://graphql.org/>
-* <https://console.graph.cool/>
-
-You can get the source code [here](https://github.com/gconnect/Android_GraphQL_Apollo)
+Still got questions for me just leave it in the comment or you can reach out to me on  [twitter](twitter.com/agatevureglory). Thanks for reading.
