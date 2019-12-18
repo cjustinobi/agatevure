@@ -133,6 +133,8 @@ Before the end of the contribution period applicants are encouraged to create a 
 
 It's a three months paid remote internship. During which selected applicants will contribute to the project they were selected to make contributions for. And work with mentors to guide them through the internship period.
 
+I was very excited when I saw the mail that I was accepted to participate in the internship. All thanks to me mentor for his support. And helping me get to this stage. It can only get better. I learnt a lot during the contribution period and I hope to learn and contribute more during the internship period.
+
 The internship started off with the community bonding period. Where I familiarize myself and set up my community work tools. Like the Wikimedia common uploads for my photo, created a wiki page for my blogs. Made some changes to my proposal with the help of my mentor. I had a video chat with my mentor to discuss the plan for the internship and for my first task. 
 
 I was introduced to a 10-15 minutes daily checking with members of the team.
@@ -153,4 +155,4 @@ During the application period, I made it a point of duty to always relate to my 
 
 Outreachy is for everyone irrespective of your skill level. Don't be discouraged by thinking open source contributions is just for people that are very good. Outreachy open source contribution is not just a code based contribution. It encompasses every aspect of tech. Outreachy internship projects may include programming, user experience, documentation, illustration, graphical design, or data science. Don't think too much about it just give it a shot.
 
-Still got questions for me just leave it in the comment or you can reach out to me on  [twitter](twitter.com/agatevureglory). Thanks for reading.
+Still got questions for me just leave it in the comment or you can reach out to me on  [twitter](twitter.com/agatevureglory). Thanks for reading. Keep watching this thread for update on my outreachy internship experience!
