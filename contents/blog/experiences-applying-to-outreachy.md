@@ -7,6 +7,8 @@ description: >-
 date: 2019-12-17T23:00:00.000Z
 update: 2019-12-17T23:30:01.612Z
 ---
+Outreachy is a paid, remote internship program. Outreachy's goal is to support people from groups underrepresented in tech. Outreachy gives newcomers the opportunity to make their first open source contribution.
+
 Outreachy is open to everyone around the world especially for under-represented group in tech. It involves a series of application process.First the initial application which comprises of series of questions and essays. The contribution period and the internship period. I will explain each of them as we proceed.
 
 **What Motivated you to apply to Outreachy?**
