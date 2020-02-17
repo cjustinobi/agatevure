@@ -15,8 +15,9 @@ In the process of doing that. My mentor told me to pause the UI changes and labe
 
 One of the issues tagged as high-priority which relates to the BASE_URL not changing when trying to access a different URL using Kotlin Koin. It was quite challenging as I tried several options in solving the problem and the app was crashing. I was sent a link to go through which could be helpful in solving the problem but didn't really understand the concept of Koin scope. Still trying to understand Koin scope and hope to get through this issue soonest!
 
-**Why was it confusing or hard?** It was confusing because it's not something I had done before. Still doing research on it. What did you try that didn't work?
-I tried creating two separate Base Url for the different API request, and added another single api module. But it didn't work. I know it's not the best approach. Still searching for the best way to handle the issue.
+**Why was it confusing or hard?** 
+
+It was confusing because it's not something I had done before. Still doing research on it. What did you try that didn't work? I tried creating two separate Base Url for the different API request, and added another single api module. But it didn't work. I know it's not the best approach. Still searching for the best way to handle the issue.
 
 **Where did you search for help?**
 
