@@ -26,11 +26,11 @@ Later in the future I would love to learn React/React Native, Swift for IOS app 
 
 I enjoy collaborating on a project and working in a team. I was able to improve on my communication skills, getting feedback and working on feedback, asking for help when the need arose, reaching out to help other team members and contributing my ideas to the overall success of the project during the course of the internship.
 
-I identify as a she/her. I am a black African woman. A Nigerian to be precise. Am sure you know Nigerians are hard-working people :( .Been a woman in tech is not an easy feet. A lot has been done recently to bring women top levels in tech, to increase the number of women in tech but the ratio of men to women is still nothing one can be very proud of. Joining a team where the ecosystem is flooded by men. I am sure will bring about diversity. Having a woman like me am sure will be one of the best decision you will take :( .
+I identify as a she/her. I am a black African woman. A Nigerian to be precise. Am sure you know Nigerians are hard-working people :( .Been a woman in tech is not an easy feet. A lot has been done recently to bring women to top levels in tech, to increase the number of women in tech but the ratio of men to women is still nothing one can be very proud of. Joining a team where the ecosystem is flooded by men. I am sure will bring about diversity. Having a woman like me in your team will be a great plus :(.
 
 **What languages do you speak, and at what school grade level?**
 
-I speak English fluently, I am a graduate of Banking and Finance. I am a certified Android Developer. My Degree courses have nothing to do with what I am currently doing in the tech space. I am passionate about contributing/building the tech space “One code at a time” and “One event at a time”. Spreading the good news about tech. We move…
+I speak English fluently, I am a graduate of Banking and Finance. I am a certified Android Developer. My degree courses have nothing to do with what I am currently doing in the tech space. I am passionate about contributing/building the tech space “One code at a time” and “One event at a time”. Spreading the good news about tech. We move…
 
 **Are you looking for a job, internship, a grant, a volunteer position, or some type of other opportunity?**
 
