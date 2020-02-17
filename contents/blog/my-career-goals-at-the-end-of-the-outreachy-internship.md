@@ -1,5 +1,5 @@
 ---
-title: My Career Goals at the end of Outreachy Internship
+title: My Career Goals - Taking it forward
 description: >-
   The three months Outreachy Internship with Wikimedia Foundation has been a
   very impactful one for me. At the end of the internship I will be open for an
