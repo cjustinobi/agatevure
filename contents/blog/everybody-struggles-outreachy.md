@@ -1,13 +1,12 @@
 ---
 title: Everybody Struggles - Outreachy
-description: >-
-  It's already three weeks since the internship commenced and my project
-  proposal was a little adjusted. My first task was to improve the UI of the app
-  and I started of by redesigning the UI using Figma.
+description: It's already three weeks since the internship commenced and my
+  project proposal was a little adjusted. My first task was to improve the UI of
+  the app and I started of by redesigning the UI using Figma.
 date: 2019-12-17T10:50:51.271Z
 update: 2020-01-22T10:50:51.295Z
 ---
-**It's already three weeks since the internship commenced and my project proposal was a little adjusted. My first task was to improve the UI of the app and I started of by redesigning the UI using [Figma](https://www.figma.com/file/6gYtosgx6qt1RKRw922rfP/wikidashboard?node-id=0%3A1).**
+It's already three weeks since the internship commenced and my project proposal was a little adjusted. My first task was to improve the UI of the app and I started of by redesigning the UI using [Figma](https://www.figma.com/file/6gYtosgx6qt1RKRw922rfP/wikidashboard?node-id=0%3A1).
 
 In the process of doing that. My mentor told me to pause the UI changes and labelled the issues on the project I am working on based on their order of priority. Within this time I have worked on 3 issues and sent Pull Request(PR) for them and I have also design about 10 screens for UI enhancement.
 
