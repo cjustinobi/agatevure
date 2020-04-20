@@ -1,11 +1,13 @@
 ---
 title: Modifying Expectation
-description: >-
-  This is the 7th week so far in the Outreachy internship and first half of the
-  internship. Here is my progress report for the first half of the internship.
+description: This is the 7th week so far in the Outreachy internship and first
+  half of the internship. Here is my progress report for the first half of the
+  internship.
 date: 2020-01-22T13:20:57.886Z
 update: 2020-01-22T13:20:57.909Z
 ---
+This is the 7th week so far in the Outreachy internship and first half of the internship. Here is my progress report for the first half of the internship.
+
 **What were your original internship project timelines?**
 
 The timeline for the project is 3 months internship period from 3rd December, 2019 - 3rd March 2020
