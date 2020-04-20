@@ -1,10 +1,9 @@
 ---
 title: My Career Goals - Taking it forward
-description: >-
-  The three months Outreachy Internship with Wikimedia Foundation has been a
-  very impactful one for me. At the end of the internship I will be open for an
-  internship, part-time/full-time job and volunteer opportunities with special
-  interest in remote opportunities.
+description: The three months Outreachy Internship with Wikimedia Foundation has
+  been a very impactful one for me. At the end of the internship I will be open
+  for an internship, part-time/full-time job and volunteer opportunities with
+  special interest in remote opportunities.
 date: 2020-02-17T11:03:22.483Z
 update: 2020-02-17T11:03:22.498Z
 ---
@@ -20,7 +19,7 @@ I am skilled in Android development using Java/Kotlin and backends with Python a
 
 **What tools or skills would you like to learn?**
 
-Later in the future I would love to learn React/React Native, Swift for IOS app development.
+Later in the future I would love to learn Flutter/React Native, Swift for IOS app development.
 
 **What interpersonal skills make you a collaborative team member?**
 
