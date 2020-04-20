@@ -1,12 +1,13 @@
 ---
 title: Outreachy Internship Experience with Wikimedia
-description: >-
-  The internship has provided me with a great learning experience. One of the
-  fears I had about the internship that turned out not to come true was the fear
-  of not being able to complete the project.
+description: The internship has provided me with a great learning experience.
+  One of the fears I had about the internship that turned out not to come true
+  was the fear of not being able to complete the project.
 date: 2020-03-03T12:18:20.868Z
 update: 2020-03-03T12:18:20.886Z
 ---
+The internship has provided me with a great learning experience. One of the fears I had about the internship that turned out not to come true was the fear of not being able to complete the project.
+
 This was due to the fact that I was almost new to kotlin at the time of the internship and the project makes use of Kotlin and the architectural design pattern used for the project was MVP which was not something I was familiar with at the time.
 
 At the start of the internship things were a bit slow on my part since I was still trying to familiarize with the project. At some point I was scared I might not be able to complete the project task designed for the internship, especially the major top priority task. After one month into the internship things started taking shape. As I was making more than one PR in a day and was getting acquainted with Model View Presenter (MVP) so as to do a proper migration to Model View ViewModel (MVVM).
@@ -15,15 +16,9 @@ Technically, during the course of the internship I got a better understanding of
 
 Outreachy did not just make me feel confident in making open source and free software contributions but also helped me build up my remote working skills. Now I feel more confident and comfortable working remotely with the Outreachy remote internship experience. Now I feel so confident contributing to any open source project. If I can contribute to the Wikimedia project why can’t I contribute to any open source project out there. Now I am no longer confused on where and how to begin contributing to a project. The outreachy internship opportunity it’s one of the best thing that has happen to me.
 
-
-
 Now I am confident in working with a diverse team remotely, irrespective of different timezones. With a proper understanding of each team timezone we can always have a unifying point where teams can meet and talk about the progress of the project.
 
-
-
 The internship helped me to be a better communicator. Whenever I am stuck I reach out to my mentors and always seek their opinion on what I am doing to ensure I am on the right path. I don’t keep my work challenge to myself. I discuss my challenges and progress with the team. Daily checkings were paramount to my project as it's common with most teams. We always have checking Monday - Thursday where we discuss the project throughout the period of the internship, important public holidays were also observed.
-
-
 
 I was able to convert the existing code from MVP to MVVM. This entails changing most parts of the codebase from MVP to MVVM. Rewriting/refactoring some part of the code and deleting unused codes. With the Migration from MVP to MVVM the code became more shorter and readable with the comments. Migration to MVVM also helped reduce the app crashes caused by heap dump and leaks. I added offline features to the explore tab. The campaign list and course list. I refactored the dependencies to use Kotlin buildSrc. I designed and implemented the campaign details pages with four tabs for home, course, articles and student tabs, consumed the available APIs. I also created some mockup designs to add more items on the campaign list, course list and created empty state design with illustrations which are yet to be implemented.
 
