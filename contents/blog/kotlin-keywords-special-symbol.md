@@ -1,6 +1,7 @@
 ---
 title: Kotlin Keywords and Special Symbols and their usage (Part 1)
-description: I have been working with Java for a while now to build android applications. Just recently I decided to checkout Kotlin. 
+description: I have been working with Java for a while now to build android
+  applications. Just recently I decided to checkout Kotlin.
 date: 2019-08-04T23:00:00.000Z
 update: 2019-08-04T23:00:00.000Z
 ---
@@ -12,13 +13,13 @@ And so far, it has been really nice working with kotlin. It really helps simplif
 
 So lets get into it. What’s this thing called Kotlin?
 
-###What’s Kotlin?
+\###What’s Kotlin?
 
-Kotlin is a statistically typed and combines both object-oriented and functional programming features. It originated from JetBrains the company behind Intellij.
+Kotlin is  statistically typed and combines both object-oriented and functional programming features. It originated from JetBrains the company behind Intellij.
 
 Kotlin can be used to write all sort of applications and those applications can run wherever we have a JVM (so basically everywhere) and even in the browser. It reuse Java and JavaScript libraries. 
 
-###Why choose Kotlin over Java
+\###Why choose Kotlin over Java
 
 •	Kotlin helps to simply coding and reduces the boilerplate involve in Java
 
@@ -112,11 +113,13 @@ So, Glory can now extend Agatevure
 ```
 Glory: Agatevure() {}
 ```
+
 as opposed to 
 
 ```
 Glory extends 
-``` 
+```
+
 in Java
 
 `data:` data classes are used to replace the getters and setters method in Java. It Instructs the compiler to generate canonical members for a class.
@@ -237,6 +240,6 @@ class DontCreateMe private constructor () { /your code here/ }
 
 ```
 for (i in 4 downTo 1) print(i) // 4321
-``` 
+```
 
 The post is getting long so we will end it here and click [here to read the part 2 of the post](https://agatevure.com/blog/kotlin-keywords-and-special-symbols-and-their-usage-part-2). If you have any question, you can reach out to me on twitter.
