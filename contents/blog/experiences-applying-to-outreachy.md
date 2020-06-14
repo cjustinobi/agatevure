@@ -1,9 +1,8 @@
 ---
 title: Experiences applying to Outreachy
-description: >-
-  Outreachy is a paid, remote internship program. Outreachy's goal is to support
-  people from groups underrepresented in tech. Outreachy gives newcomers the
-  opportunity to make their first open source contribution.
+description: Outreachy is a paid, remote internship program. Outreachy's goal is
+  to support people from groups underrepresented in tech. Outreachy gives
+  newcomers the opportunity to make their first open source contribution.
 date: 2019-12-17T23:00:00.000Z
 update: 2019-12-17T23:30:01.612Z
 ---
@@ -37,7 +36,7 @@ The contribution period lasted for a month and 4 days. It started from October 1
 
 [• Added Onboarding page to the app](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/issues/23)
 
-[• Change the Detail Media Fragment Layout to Constraint Layout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/issues/76)
+[• Changed the Detail Media Fragment Layout to Constraint Layout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/issues/76)
 
 
 
@@ -61,11 +60,11 @@ The contribution period lasted for a month and 4 days. It started from October 1
 
 
 
-[• Change Upload and Activity View positions](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/211)
+[• Changed Upload and Activity View positions](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/211)
 
 
 
-[• Change Fragment Recent Activity to ConstraintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/208)
+[• Changed Fragment Recent Activity to ConstraintLayout](https://github.com/WikiEducationFoundation/apps-android-wikiedudashboard/pull/208)
 
 
 
